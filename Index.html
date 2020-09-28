@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Witcher 3 Home</title>
+    <!--CSS personalizado-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--BootStrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+    <!--Fonts-Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--NAV-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">The Witcher 3
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="./Index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./html/personajes.html" class="nav-link">Personajes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Galería
+                        </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item dropdown-item-hover" href="#">Geralt the Rivia</a>
+                            <a class="dropdown-item dropdown-item-hover" href="#">Ciri</a>
+                            <a class="dropdown-item dropdown-item-hover" href="#">Yennefer</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME-->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img_carousel" src="https://images2.alphacoders.com/600/thumb-1920-600255.jpg"
+                        class="d-block w-100" alt="Geralt">
+                </div>
+                <div class="carousel-item">
+                    <img class="img_carousel"
+                        src="https://areajugones.sport.es/wp-content/uploads/2014/12/the-witcher-3.jpg"
+                        class="d-block w-100" alt="Geralt-killing-monster">
+                </div>
+                <div class="carousel-item">
+                    <img class="img_carousel" src="../img/Geralt_sword-size_1920x1080.png" class="d-block w-100"
+                        alt="Geralt-sword">
+                </div>
+                <div class="carousel-item">
+                    <img class="img_carousel" src="../img/Geralt_Yennefer-size_1920x1080.png" class="d-block w-100"
+                        alt="Geralt-Yennefer">
+                </div>
+                <div class="carousel-item">
+                    <img class="img_carousel" src="../img/The_Witcher_3_Wild_Hunt-Killing_monsters_EN_1920x1080.png"
+                        class="d-block w-100" alt="The-Witcher-3">
+                </div>
+                <div class="carousel-item">
+                    <img class="img_carousel"
+                        src="https://i.pinimg.com/originals/f9/5f/c8/f95fc8c41ac31c851bfe6f4927700c42.jpg"
+                        class="d-block w-100" alt="The-Witcher-3">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+
+    <!--Seccion Mundo the witcher-->
+    <section class="info-section  bg-dark text-muted" id="info-section">
+        <div class="container pb-3 pt-3">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="div-img d-flex justify-content-end">
+                    <img src="./img/TheWitcherLogo.png" alt="">
+                </div>
+                <div class="div-h2-p d-flex justify-content-start flex-column">
+                    <h3 class="text-center pb-3">HISTORIA</h3>
+                    <p class="text-center">
+                        En un mundo devastado por la guerra, con la Caceria Salvaje a tus espaldas, asumirás tu contrato más importante: localizar al hijo de la profecía, una llave y un arma que puede salvar o destruir todo. 
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!--Segunda Seccion the witcher-->
+    <section class="info-section  bg-light text-muted p-5">
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="div2-h2-p">
+                    <h3 class="text-center pb-3">MUNDO ABIERTO</h3>
+                    <p class="text-center">
+                        En el mundo abierto de Wild Hunt, traza tu propio camino hacia la aventura. Juegas como un cazarrecompensas. Usted establece sus propios objetivos y elige sus propios destinos. Busca la recompensa por la cabeza de un monstruo desagradable que molesta a una aldea o ayuda a un príncipe intrigante que necesita hacer un trabajo sucio; no importa qué estilo de búsqueda épica anheles, The Witcher te lo proporcionará.
+                    </p>
+                </div>
+                <div class="div2-h2-p">
+                    <h3 class="text-center pb-3">CAZADOR DE MONSTRUOS</h3>
+                    <p class="text-center">
+                        los brujos son mutantes, hombres sometidos a un entrenamiento extenuante y experimentados de alteración de la carne que los preparan para un propósito: matar monstruos. Geralt fue forjado en la élite de la Escuela del Lobo y es considerado uno de los brujos más mortíferos jamás entrenados. Posee reflejos y fueerza sobrehumanas, y sus habilidades de lucha con espadas son insuperables. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Section Señales2-->
+    <div class="container">
+        <div class="d-flex justify-content-center flex-wrap text-center">
+            <div class="text-center justify-content-center">
+                <div class="p-5 align-items-center text-center">
+                    <img class="img_señales_info" src="./img/señales.png" alt="">
+                </div>
+                <div class="d-flex p-5 align-items-center div_señales_border_bottom">
+                    <img src="../img/quen.png" alt="">
+                    <p class="text-white">
+                        Un escudo protector que dura 30 segundos en su nivel más básico. Es una señal que Geralt usa en sí mismo - Quen absorbe todo el daño infligido a Geralt, mientras que su versión mejorada refleja el 50% del daño infligido al enemigo - Mientras Quen esté en uso, Geralt no puede regenerar su vigor.
+                    </p>
+                </div>
+                <div class="d-flex p-5 align-items-center div_señales_border_bottom">
+                    <img src="../img/igni.png" alt="">
+                    <p class="text-white">
+                        Un chorro de llamas que hiere a los oponentes. Cuando se mejora, la señal tiene la posibilidad de incinerar a los oponentes y tener una mayor área de efecto. También puede ser usada para detonar gases inflamables en bombas.
+                    </p>
+                </div>
+                <div class="d-flex p-5 align-items-center div_señales_border_bottom">
+                    <img src="../img/yrden.png" alt="">
+                    <p class="text-white">
+                        Una trampa mágica que se coloca en el suelo, que herirá o inmovilizará a los oponentes. El nivel más básico de la señal permite solo colocar una señal de Yrden en el suelo. Después de mejorarla, se podrán colocar hasta tres al mismo tiempo. Estas funcionarán al unísono, creando una pared impasible.
+                    </p>
+                </div>
+                <div class="d-flex p-5 align-items-center div_señales_border_bottom">
+                    <img src="../img/Tw2_sign_aard.png" alt="">
+                    <p class="text-white">
+                        Una onda telequinética que puede lanzar, golpear o atontar al enemigo. Esta señal puede usarse también para romper obstáculos, por ejemplo, paredes que están a punto de desmoronarse o pilas de barriles
+                    </p>
+                </div>
+                <div class="d-flex p-5 align-items-center div_señales_border_bottom">
+                    <img src="../img/Axia.png" alt="">
+                    <p class="text-white">
+                        Un encantamiento que se usa en los enemigos. Si el intento de encantamiento tiene éxito, el enemigo se convertirá en aliado de Geralt durante un tiempo, luchando a su lado.
+                    </p>
+                </div>
+                <div class="mt-4">
+                    <a class="a_señales_informacion" rel="noopener noreferrer" href="https://google.com" target="_blank">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--BootStrap JS-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

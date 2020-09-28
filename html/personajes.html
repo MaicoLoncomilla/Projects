@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--BootStrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--CSS personalizado-->
+    <link rel="stylesheet" href="../css/estilos-personajes.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <!--Fonts-Google-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!--Scroll Reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+
+<body>
+
+    <!--NAV-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">The Witcher 3
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="../Index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./personajes.html" class="nav-link">Personajes</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Galería
+                        </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item dropdown-item-hover" href="#">Geralt the Rivia</a>
+                            <a class="dropdown-item dropdown-item-hover" href="#">Ciri</a>
+                            <a class="dropdown-item dropdown-item-hover" href="#">Yennefer</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Personajes-->
+    <div class="container-mio">
+        <div class="list-left">
+            <ul>
+                <li data-li="auberon" class="active">
+                    <p class="p_left">
+                        Auberon
+                    </p>
+                </li>
+                <li data-li="avallach">
+                    <p>
+                        Avallac'h
+                    </p>
+                </li>
+                <li data-li="bran" >
+                    <p>
+                        Bran Tuirseach
+                    </p>
+                </li>
+                <li data-li="caranthir" >
+                    <p>
+                        Caranthir
+                    </p>
+                </li>
+                <li data-li="cerys" >
+                    <p>
+                        Cerys an Craite
+                    </p>
+                </li>
+                <li data-li="ciri">
+                    <p>
+                        Ciri
+                    </p>
+                </li>
+                <li data-li="crach">
+                    <p>
+                       Crach an Craite
+                    </p>
+                </li>
+                <li data-li="eredin">
+                    <p>
+                        Eredin
+                    </p>
+                </li>
+                <li data-li="eskel">
+                    <p>
+                        Eskel
+                    </p>
+                </li>
+                <li data-li="fringilla">
+                    <p>
+                        Fringilla Vigo
+                    </p>
+                </li>
+                <li data-li="espejo">
+                    <p>
+                        Gaunter O'Dimm
+                    </p>
+                </li>
+                <li data-li="geralt">
+                    <p>
+                        Geralt the Rivia
+                    </p>
+                </li>
+                <li data-li="hjalmar">
+                    <p>
+                        Hjalmar an Craite
+                    </p>
+                </li>
+                <li data-li="imlerith">
+                    <p>
+                        Imlerith
+                    </p>
+                </li>
+                <li data-li="jaskier">
+                    <p>
+                        Jaskier
+                    </p>
+                </li>
+                <li data-li="keira">
+                    <p>
+                        Keira Metz
+                    </p>
+                </li>
+                <li data-li="lambert">
+                    <p>
+                        Lamber
+                    </p>
+                </li>
+                <li data-li="letho">
+                    <p>
+                        Letho
+                    </p>
+                </li>
+                <li data-li="philippa">
+                    <p>
+                        Philippa
+                    </p>
+                </li>
+                <li data-li="priscilla">
+                    <p>
+                        Priscilla
+                    </p>
+                </li>
+                <li data-li="radovid">
+                    <p>
+                        Radovid V
+                    </p>
+                </li>
+                <li data-li="dijkstra">
+                    <p>
+                        Dijkstra
+                    </p>
+                </li>
+                <li data-li="thaler">
+                    <p>
+                        Thaler
+                    </p>
+                </li>
+                <li data-li="triss">
+                    <p>
+                        Triss Merigold
+                    </p>
+                </li>
+                <li data-li="roche">
+                    <p>
+                        Vernon Roche
+                    </p>
+                </li>
+                <li data-li="ves">
+                    <p>
+                        Ves
+                    </p>
+                </li>
+                <li data-li="vesemir">
+                    <p>
+                        Vesemir
+                    </p>
+                </li>
+                <li data-li="yennefer">
+                    <p>
+                        Yennefer
+                    </p>
+                </li>
+                <li data-li="zoltan">
+                    <p>
+                        Zoltan
+                    </p>
+                </li>               
+            </ul>
+        </div>
+        <div class="list-right">
+            <div class="Descripcion-pj">
+                <div class="item auberon" class="active"> 
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Auberon.png" alt=""></div>
+                        <p class="scroll">
+                        Auberon Muircetach fue rey de los elfos Aen Elle, un Aen Saevherne, y gobernante de Tir ná Lia. Estaba decidido a "recuperar" lo que le había robado Cregennan de Lod a los Aen Elle cuando se llevó a Lara Dorren, la hija de Auberon. Para lograr su objetivo hizo que Ciri, una descendiente de los dos amantes, fuera llevada ante él y preparada para producir un heredero.
+                        <br>
+                        <br>
+                        Sin embargo, murió antes de poder darle un hijo a Ciri, fue envenenado por Eredin Bréacc Glas, quien se veía a sí mismo como un gobernante más adecuado. En el momento de morir, Auberon ya estaba cansado y amargado por los más de sescientos cincuenta años que llevaba de vida.
+                        </p>  
+                    </div>
+                </div>
+                <div class="item avallach" style="display: none;"> 
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Avallach.png" alt=""></div>
+                        <p class="scroll">
+                            Crevan Espane aep Caomhan Macha, también conocido como Avallac'h, era un elfo y Aen Saevherne que tenía la capacidad de viajar entre los mundos de los Aen Elle y los Aen Seidhe. Conoció a Geralt y le contó al brujo sobre una profecía relacionada con Ciri. Fue apodado Zorro por los unicornios.
+                            Lara Dorren tenía la intención de casarse con él, antes de enamorarse del mago humano Cregennan de Lod.
+                            <br><br>
+                            Avallac'h fue quien llevó a Ciri ante el rey Auberon de los Aen Elle, prometiéndole a la muchacha que le permitiría regresar a su mundo si concebía un hijo con el rey. Sin embargo, Eredin afirmó que Avallac'h mentía.
+                            <br><br>
+                            El ser atrapado en el cascarón torturado de Uma resultó ser Avallac'h, un poderoso sabio Aen Elle. Geralt había tenido el placer de conocerlo años antes. Durante estos encuentros previos, Avallac'h había exhibido un interés vivo y bastante intranquilizador por la vieja sangre y su portadora, Ciri. Sus motivos no estaban claros, y no se molestó en explicárselos a Geralt.
+                            Del mismo modo, Geralt no sabía qué relación había ahora entre Ciri y el elfo. Sin duda Avallac'h la había ayudado y la había salvado muchas veces de la cacería salvaje, pero ¿por qué? Por desgracia, el sabio, cuya vida pendía de un hilo, no resolvió ninguna de las preguntas candentes de Geralt. Sin embargo, sí reunió fuerzas para transmitir un dato crucial: la ubicación de Ciri.
+                            <br><br>
+                            Cuando Geralt pudo hablar con Ciri de Avallac'h, se enteró de que el sabio había ejercido de tutor y mentor de la muchacha durante un tiempo. Tenían un enemigo común. Avallac'h había sido consejero del anterior soberano de los Aen Elle y se había enfrentado a su sucesor, Eredin. Por eso había decidido proteger a toda costa a Ciri de los planes maléficos de su nuevo rey.
+                            Ciri dejó claro que se fiaba del sabio, quien le había salvado la vida en numerosas ocasiones, incluso cuando al notar el avance de los efectos de la maldición que lo transformaría en Uma, decidió esconderla de la cacería salvaje en la Isla de las Brumas.
+                        </p>  
+                    </div>
+                </div>
+                <div class="item bran" style="display: none;"> 
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Bran.png" alt=""></div>
+                        <p class="scroll">
+                            Bran Tuirseach fue uno de los reyes de Skellige. Era el tío materno de Crach an Craite y el hermano de Eist Tuirseach, con quien tenía una relación amistosa, ya que dirigía su ejército como Jarl de Skellige. El druida Myszowor era un gran amigo suyo.
+                        </p>  
+                    </div>
+                </div>
+                <div class="item caranthir" style="display: none;"> 
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Caranthir.png" alt=""></div>
+                        <p class="scroll">
+                            Caranthir es un producto del intento de reproducción selectiva de Avallac'h entre parejas élficas dotadas con la capacidad para manipular el tiempo y el espacio. A pesar del talento que poseía, se convirtió en un criminal y se unió a Eredin en la cacería salvaje. 
+                            <br><br>
+                            Según Avallac'h, a pesar de la indiferencia de Eredin hacia Caranthir, lo terminó reclutando después de pasar las pruebas que le preparó. Descrito por Ciri como "reservado y pragmático", una de las notas encontradas en el laboratorio de Avallac'h sugieren que también tenía un "temperamento imprudente", una "tendencia a tomar riesgos tontos", además de sentir cierto orgullo debido a sus capacidades.
+                        </p>  
+                    </div>
+                </div>
+                <div class="item cerys" style="display: none;"> 
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Cerys.png" alt=""></div>
+                        <p class="scroll">
+                            En Skellige, Geralt pudo al fin conocer a Cerys an Craite, la más joven de los dos hijos de Crach. Conocida como Gavilana por sus amigos más cercanos, era tan salvaje y decidida (a la par que ágil) como su apodo daba a entender. Cerys era una isleña de pies a cabeza y la viva imagen de su padre, del que había heredado todo su valor, resolución y testarudez. 
+                            <br><br>
+                            Intrépida y resuelta, aprovechaba cualquier ocasión para demostrar que no había nada que no pudiese hacer igual de bien (o mejor) que cualquier hombre de las islas, incluido (y especialmente) su hermano mayor Hjalmar.
+                            <br><br>
+                            brindase respeto y un amplio reconocimiento. Por eso se fue a Spikeroog para liberar al jarl Udalryk de la extraña maldición que padecía.
+                        </p>  
+                    </div>
+                </div>
+                <div class="item ciri" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Ciri.png" alt=""></div>
+                        <p class="scroll">
+                            Cirilla Fiona Elen Riannon, mejor conocida como Ciri, nació en 1252 o 1253, probablemente durante la fiesta de Belleteyn. Era la princesa de Cintra, la hija de Pavetta y Emhyr var Emreis (quien en ese momento usaba el alias "Duny"), y la nieta de la reina Calanthe.
+                            <br><br>
+                            Después de que Geralt de Rivia deshizo la maldición de Duny, el brujo pidió como recompensa el hijo que Pavetta estaba esperando de él, pero que él mismo no esperaba, aplicando la Ley de la Sorpresa. Seis años después del nacimiento, Geralt volvió a Cintra a por ella, pero no se la llevó a Kaer Morhen, de hecho ni siquiera la miró. La reina no le entregó ninguna información, ni el género del niño, ni su nombre. Esta niña era Ciri.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="item crach" style="display: none;"> 
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Crach.png" alt=""></div>
+                        <p class="scroll">
+                            En sus años de juventud era uno de los contendientes para casarse con la princesa Pavetta de Cintra, sin embargo, nunca llegó a nada. Después de que el rey Bran legó el trono a Eist Tuirseach, Crach se convirtió en Jarl de Skellige, el comandante principal de las fuerzas militares. 
+                            <br><br>
+                            También tuvo una breve aventura con Yennefer y se encariñó con ella, lo que demostró al ayudarla en su búsqueda de Vilgefortz en 1267.
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="item eredin" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Eredin.png" alt=""></div>
+                        <p class="scroll">
+                            Desde temprana edad demostró ser un hábil guerrero y poseer habilidades mágicas, aunque poco más se sabe de su infancia.
+                            <br><br>
+                            Cuando el rey Auberon Muircetach, gobernante de los elfos Aen Elle, creó a los Jinetes Rojos, puso a Eredin como su líder y general. En aquel momento poseía el poder de la Puerta de los Mundos, lo que le permitió viajar a través de diversos mundos a voluntad, saqueando ciudades y consiguiendo esclavos. Su misión principal era conseguir una gran cantidad de esclavos humanoides (preferiblemente humanos) para servir a su pueblo. Esto hizo que Eredin y sus hombres fuesen temidos y que empezasen a transformarse con magia para causar terror a sus enemigos, con armaduras esqueléticas y alterando el tono de sus voces.
+                            <br><br>
+                            En algún momento descubrieron su mundo de origen, el mundo de los Aen Seidhe que, antes de la Conjunción de las Esferas, pertenecía a todos los demás elfos. Sin embargo, ahora estaba controlado por los humanos y debido al odio que tenían los elfos Aen Elle hacia esta raza, el mundo de los Aen Seidhe se convirtió en su objetivo principal con Eredin a menudo liderando incursiones en el mundo y robando a un gran número de individuos jóvenes. La gente de ese mundo rápidamente comenzó a temer a los jinetes y les dieron un nuevo nombre: cacería salvaje. Debido a que Eredin siempre dirigió a sus hombres personalmente, estuvo presente casi todo el tiempo y, como jinete principal, causó el mayor temor en la gente común y pronto comenzaron a llamarlo "rey de la cacería salvaje".
+                            <br><br>
+                            Mucho tiempo después, los unicornios se liberaron del alcance de los Aen Elle y les arrebataron la Puerta de los Mundos, lo que significaba que Eredin ya no podía usarla. Esto también causó que todos los elfos se quedaran atrapados en su mundo sin acceso a más esclavos, por lo que comenzaron a estudiar la magia que permitía viajar a diferentes reinos. Sin embargo, solo tuvieron un éxito parcial y crearon navegadores: magos especializados entrenados para abrir portales a diferentes mundos, pero solo podían transportar a un pequeño grupo de jinetes. Debido a esto, los jinetes tuvieron que usar formas espectrales en lugar de físicas y viajaban por los cielos como una cabalgata de espectros.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="item eskel" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Eskel.png" alt=""></div>
+                        <p class="scroll">
+                            Eskel y Geralt eran como hermanos en muchos aspectos. Tenían la misma edad y se conocían desde muy jóvenes, cuando se entrenaban con espadas de madera en Kaer Morhen. Pasaron por muchas cosas juntos: la primera ronda de selecciones, los criminales Cambios, la Prueba de las Hierbas, el Desafío (la abrumadora carrera de obstáculos de los brujos), etc. También recibieron palizas por más de un acto de vandalismo juvenil. Cuando se hicieron adultos, recorrieron la Senda por separado pero se reunían en Kaer Morhen casi todos los inviernos a esperar la llegada del frío, brindar por sus éxitos y recordar a los compañeros caídos.
+                            <br><br>
+                            Aunque Eskel no se había ganado el renombre de Geralt, tenía tanta experiencia como el Lobo Blanco y cumplía sus contratos con cuidado y eficacia. Sus cacerías lo habían llevado al borde de la muerte en muchas ocasiones, pero, curiosamente, la horrible cicatriz de su rostro no la habían causado las garras de un monstruo, sino la espada de Deidre Ademeyn, su imprevisible "hija inesperada".
+                            <br><br>
+                            Puede que aquella traumática experiencia fuese el origen del rechazo que le provocaba Yennefer, aunque intentaba que aquello no se interpusiese en su amistad con Geralt.
+                        </p>
+                    </div>
+                </div>
+                <div class="item fringilla" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Fringilla_Vigo.png" alt=""></div>
+                        <p class="scroll">
+                            El emperador Emhyr había planteado a los magos de Nilfgaard dos simples opciones: servir a su país sin contemplaciones o morir en prisión. Fringilla Vigo, una dama que ejercía de hechicera en el ducado vasallo de Toussaint, se negó a ambas cosas y se unió a la infame Logia de Hechiceras, cuyo objetivo era enfrentarse a los dictados de reyes y emperadores. Pero aquel ambicioso plan nunca llegó a cumplirse, y Fringilla Vigo temía que se descubriese su vínculo con aquella subversiva organización y que los verdugos del emperador pusiesen fin a su vida.
+                            <br><br>
+                            Hay que recordar que Geralt había conocido a Fringilla muchos años atrás, en el palacio ducal de Beauclair, mientras disfrutaba de la hospitalidad de mi antiguo amor, la duquesa Anna Henrietta. El brujo, que sentía una debilidad por las hechiceras, mantuvo en aquella época una relación muy intensa con la señorita Vigo, algo que seguramente no fue del agrado de Triss y Yennefer.
+                            <br><br>
+                            Todo indicaba que habían detenido a Fringilla y que estaba en una prisión nilfgaardiana, sin duda esperando a ser ejecutada por alta traición.
+                            <br><br>
+                            Pero fue liberada poco después, gracias a un acuerdo que Yennefer cerró con Emhyr.
+                        </p>
+                    </div>
+                </div>
+                <div class="item espejo" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Senor_For_Espejo.png" alt=""></div>
+                        <p class="scroll">
+                            Gaunter O'Dimm, a veces llamado Señor Espejo u Hombre de Cristal, se presentaba como un antiguo comerciante de espejos, ahora un sarcástico vagabundo. 
+                            <br><br>
+                            Sin embargo, como se podría sospechar, era un individuo mucho más poderoso, que creaba pactos con las personas a cambio de sus almas y era capaz de controlar el tiempo con un simple aplauso.
+                        </p>
+                    </div>
+                </div>
+                <div class="item geralt" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Geralt.png" alt=""></div>
+                        <p class="scroll">
+                            Geralt de Rivia fue un legendario brujo de la Escuela del Lobo, activo durante el siglo XIII. Amaba a la hechicera Yennefer, a pesar de su tumultuosa relación, y era el padre adoptivo de Ciri.
+                            <br><br>
+                            Como todos los brujos, Geralt era un cazador de monstruos a sueldo. Poseía habilidades sobrehumanas y era un maestro espadachín. Durante la Prueba de las Hierbas, Geralt exhibió una tolerancia inusual a los mutágenos que concedían a los brujos sus habilidades. Por lo tanto, Geralt fue expuesto a otros experimentos más fuertes, que le concedieron el pelo blanco, dándole mayor velocidad, fuerza y resistencia que sus compañeros brujos.
+                            <br><br>
+                            Geralt también era conocido como Gwynbleidd en la Lengua Élfica (traducido quiere decir "Lobo Blanco"). Este apodo fue dado por las dríadas. También era conocido como "Carnicero de Blaviken" por un desafortunado hecho ocurrido en tal ciudad.
+                            <br><br>
+                            A pesar de su nombre, Geralt no procedía de la ciudad de Rivia. Después de que Visenna, su madre, lo dejara, éste creció en Kaer Morhen en el reino de Kaedwen, bajo la tutela de los brujos de la Escuela del Lobo. Para que los potenciales clientes de los brujos tuvieran confianza en ellos, el maestro Vesemir animó a los nuevos brujos a que eligieran un apellido. Como primera opción, Geralt optó por "Geralt Roger Eric du Haute-Bellegarde", pero esta opción fue rechazada por Vesemir, la que calificó como tonta y pretenciosa. "De Rivia" era la opción más práctica. Geralt se tomó muy en serio este título, tanto que su tono de voz y acento eran como alguien de Rivia. Tiempo después, la reina Meve de Lyria lo nombró Caballero por su valor en la Batalla del puente del Yaruga, otorgándole el título formal "De Rivia".
+                        </p>
+                    </div>
+                </div>
+                <div class="item hjalmar" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Hjalmar.png" alt=""></div>
+                        <p class="scroll">
+                            El dicho "de tal padre, tal astilla" define a la perfección a Crach y su primogénito. Hjalmar recordaba a su padre en gestos y carácter, y muchos predecían que con el tiempo superaría a su padre en honor y fama. De anchos hombros y con un gran talento como espadachín, lo tenía todo para convertirse en un guerrero soberbio. Además, con su carisma y su tendencia a un arrojo cercano a la locura podría saciar las ansias de riquezas y gloria de todos los jóvenes de los clanes de Skellige.
+                            <br><br>
+                            Todos estos rasgos hacían de Hjalmar un candidato obvio para ser el nuevo rey de Skellige. Así que él mismo no dudó en anunciar sus intenciones cuando llegó el momento, y se dirigió de inmediato a Undvik para demostrar su valentía y enfrentarse al legendario gigante de hielo.
+                            <br><br>
+                            Hjalmar llevó a cabo lo que había anunciado. Con la ayuda del brujo, derrotó al feroz coloso de Undvik.
+                            <br><br>
+                            Cuando se habla de las hazañas de Hjalmar, es necesario mencionar que no dudó un instante en apoyar a Geralt cuando este le pidió ayuda para defender a Ciri en Kaer Morhen.
+                        </p>
+                    </div>
+                </div>
+                <div class="item imlerith" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Imlerith.png" alt=""></div>
+                        <p class="scroll">
+                            Imlerith, comandante de la cacería salvaje y presencia habitual en las pesadillas de Geralt, llevaba mucho tiempo persiguiendo a Ciri con la intención de entregársela a su soberano, Eredin. Este guerrero poderoso y brutal había librado innumerables batallas y campañas de los Aen Elle para conquistar otros mundos. Valoraba el enfrentamiento físico por encima de todo lo demás, con preferencia por las refriegas directas y sangrientas en las que los rivales tenían que demostrar su fuerza, agilidad y enfrentamiento en un combate a vida o muerte.
+                            <br><br>
+                            Imlerith atacó Kaer Morhen con el resto de la cacería. Los defensores de la fortaleza presenciaron horrorizados el peligroso poder de este guerrero. Vesemir, que se había pasado gran parte de su larga vida con una espada en la mano, se enfrentó heroicamente a este enemigo pero, por desgracia, fue vencido tras un enfrentamiento intenso y sangriento, pereciendo a manos del monstruo.
+                            <br><br>
+                            Sea cual sea su raza o estirpe, muchos guerreros comparten los mismos deseos y deleites. Imlerith no era una excepción: Avallac'h informó a Ciri de que el comandante solía abandonarse a los placeres carnales, y que aprovecharía su estancia en nuestro mundo para asistir al aquelarre de las moiras.
+                            <br><br>
+                            Geralt y Ciri decidieron ir allí para retarlo a un combate final. Geralt resultó victorioso, mató a Imlerith y vengó así la muerte de su maestro Vesemir.
+                        </p>
+                    </div>
+                </div>
+                <div class="item jaskier" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Jaskier.png" alt=""></div>
+                        <p class="scroll">
+                            Apuesto, querido lector, que eres cosmopolita y que resulta innecesario que te presente a mi humilde persona y el papel que iba a desempeñar en el siguiente relato. Aun así, lo haré para que no falten detalles y por si procedes de algún confín del mundo donde aún no he alcanzado cierta notoriedad.
+                            <br><br>
+                            Nacido en el 1229, poeta y trovador de talento, graduado de la Academia de Oxenfurt, artista habitual en las cortes reales, apreciado amante sin par, y en ocasiones adorado por las damas de todo el mundo, hábil en las negociaciones y conmovedor en los discursos, esta es la imagen de Jaskier que suele aparecer en los relatos de quienes lo conocen.
+                            <br><br>
+                            Esta imagen es, por supuesto, excesivamente colorista, y yo prefiero considerarme un humilde artista y servidor de la musa, alguien que debe su amplia obra al hecho de que siempre he sido, soy y seré íntimo amigo e incondicional compañero del brujo Geralt, a cuyo destino, como fiel cronista, dedico el presente escrito.
+                            <br><br>
+                            Al enterarse de que yo había desaparecido, Geralt lo dejó todo para averiguar qué había sido de mí. Aunque al principio sospechó que la causa de mis desvelos tenía que ver con mis muchos y turbulentos asuntos amorosos, posteriormente averiguó que había extraviado mis pasos hacia el crimen y que pretendía robar el tesoro de uno de los jefes de los bajos fondos de Novigrado.
+                            <br><br>
+                            Los motivos de mis acciones se supieron más adelante. Demostré que, si se trata de ayudar a Cirilla, no dudo en meter la cabeza en las fauces de un león ni en traicionar a un canalla como Cyprian Wiley, conocido (¡justificadamente!) como Bastardo Hijo.
+                            <br><br>
+                            Solo un loco se arma de valor para luchar cuando todo está en su contra. Aunque se me conoce por mi encanto caprichoso e impredecible, aún no me consideran loco, y por lo tanto, aunque defendí hasta el final la huida de mi compañera, al final permití que la guardia del templo me llevara a la cárcel donde aguardé mi inminente ejecución.
+                            <br><br>
+                            El dicho no miente: “cuando la suerte te da la espalda, aparecen los amigos de verdad”. Mis queridos compañeros lo demostraron de sobra al liberarme del transporte carcelario y salvarme de una muerte segura y dolorosa.
+                        </p>
+                    </div>
+                </div>
+                <div class="item keira" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Keira_Metz.png" alt=""></div>
+                        <p class="scroll">
+                            Geralt conoció a Keira Metz un buen día en el que, literalmente, se le cayó encima. Durante el infame golpe de estado de la isla de Thanedd, lanzaron a Keira por la ventana y casi aterriza sobre la cabeza del brujo. Su siguiente encuentro, en las ciénagas de Velen, fue también muy extraño pero de otra forma: la hechicera, gran amante del lujo, era la última persona que el brujo esperaba encontrar en un lugar tan lúgubre y desolado.
+                            <br><br>
+                            Más tarde supo la razón, y el destino de Keira le dio muchos motivos para meditar sobre las caprichosas vueltas que da la vida. La antigua consejera del rey Foltest fue expulsada de Temeria cuando perdió la confianza del monarca. Después se unió a la Logia de Hechiceras, lo que provocó por igual el odio del rey redaniano y del emperador de Nilfgaard. Debido a esto, comenzó a vivir de forma clandestina, haciéndose pasar por una astuta bruja de aldea en el rincón más remoto de Velen. Algo que, como era de esperar, la espantaba profundamente.
+                            <br><br>
+                            Después, Keira le pidió a Geralt un nuevo favor: acabar con la maldición de la torre de la isla del Palangre. Geralt, especialista en favores y maldiciones, aceptó.
+                            <br><br>
+                            Keira nunca había dejado de soñar con los lujos de la vida cortesana. Vivir en una cabaña con techo de paja no se podía comparar con los elegantes salones de baile y los jardines de palacio. Un día, decidió hacer un alto en su siniestra vida en Velen regalándose un suntuoso banquete.
+                        </p>
+                    </div>
+                </div>
+                <div class="item lambert" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Lambert.png" alt=""></div>
+                        <p class="scroll">
+                            Lambert era el brujo más joven de Kaer Morhen, y quizás el último que se entrenó entre aquellas paredes. Pero ya había demostrado sus habilidades en numerosas ocasiones, enfrentándose a monstruos impresionantes en Poviss o Toussaint. También se había labrado una reputación de arrogante e irónico, y sus modales quizás excesivamente bruscos y ariscos irritaban hasta a sus compañeros brujos de la escuela del Lobo. Pero por muchos que fuesen sus defectos, ni que decir tiene que Lambert haría lo que fuera por sus amigos.
+                            <br><br>
+                            Si el destino es quien realmente elige a los que se convierten en brujos, a Lambert le jugó una verdadera mala pasada. Tras conocer su historia, Geralt reconoció que Lambert tenía todos los motivos para sentirse muy poco entusiasta con respecto a la vida que le había tocado vivir.
+                            <br><br>
+                            Un encuentro casual entre dos brujos que buscaban al mismo ekimmara fue el comienzo de una historia de amistad, crimen y venganza. ¿La moraleja? Mejor no meterse con Lambert.
+                            <br><br>
+                            Aunque Lambert nunca ocultó el odio que sentía por Kaer Morhen, cuando fue necesario defenderlo lo hizo sin dudar un instante.
+                        </p>
+                    </div>
+                </div>
+                <div class="item letho" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Letho.png" alt=""></div>
+                        <p class="scroll">
+                            Letho de Guleta, también conocido como el Asesino de reyes, fue un brujo de la Escuela de la Víbora. Sus asociados más cercanos eran Auckes y Serrit, también asesinos de reyes y compañeros brujos de la Escuela de la Víbora. 
+                            <br><br>
+                            Por razones que inicialmente se desconocían, solicitó la ayuda de Iorveth y los Scoia'tael para ayudarlo en su plan de matar a los reyes de los Reinos del Norte. 
+                            <br><br>
+                            Para respaldar su solicitud, Letho le mostró a Iorveth una cabeza que, según él, pertenecía a Demavend III, el fallecido rey de Aedirn.
+                        </p>
+                    </div>
+                </div>
+                <div class="item philippa" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Philippa_Eilhart.png" alt=""></div>
+                        <p class="scroll">
+                            Philippa Eilhart fue una hechicera consejera del rey Vizimir II de Redania. Era una de las pocas hechiceras que dominaba el arte del polimorfismo.
+                            <br><br>
+                            Lideró el Golpe de Thanedd, evento que ocurrió en la isla del mismo nombre, en la que los hechiceros leales a los Reinos del Norte se enfrentaron a los hechiceros aliados de Nilfgaard. Además, fue fundadora de la Logia de Hechiceras de la cual era líder.
+                        </p>
+                    </div>
+                </div>
+                <div class="item priscilla" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Priscilla.png" alt=""></div>
+                        <p class="scroll">
+                            Como poeta y romántico, he inmortalizado en versos floridos los encantos de numerosas almas y cuerpos de mujer. Pero cuando abro la boca para cantar las alabanzas de Priscilla, siento que, aunque me cueste entenderlo, las palabras se me agolpan en la garganta, que todas mis elaboradas figuras retóricas se me antojan artificiales y huecas en comparación con su belleza natural, su talento, su sensibilidad y su inteligencia.
+                            <br><br>
+                            En el momento aproximado en que comienza nuestro relato, Priscilla (o Callonetta, el nombre artístico con el que se labró su fama), finalizaba una gira triunfal de actuaciones que la habían llevado de las suntuosas cortes de Lan Exeter y Pont Vanis a Tretogor y Caelf, hasta finalmente recalar en la gloriosa ciudad de Novigrado.
+                            <br><br>
+                            Cuando Geralt conoció a mi Callonetta, tuvo la oportunidad de comprobar de primera mano su belleza y sus numerosos talentos, porque su fértil mente fue la que creó la obra con la que atrajo de forma tan ingeniosa a nuestro escurridizo amigo doppler, Dudu.
+                        </p>
+                    </div>
+                </div>
+                <div class="item radovid" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Radovid_V.png" alt=""></div>
+                        <p class="scroll">
+                            Radovid V el Severo fue el rey de Redania durante el último cuarto del siglo XIII. Su reinado se convirtió, junto con la caza de brujas, en uno de los factores definitorios del período de posguerra que siguió a la Paz de Cintra. 
+                            <br><br>
+                            Era una figura polarizante, un brillante estratega y un excelente general para algunos, un loco paranoico para otros. También hubo muchos que vieron sus políticas como duras pero justificadas. La verdad yacía, como siempre lo hace, en algún punto intermedio.
+                            <br><br>
+                            Como único hijo del rey Vizimir II y la reina Hedwig de Malleore, heredó todos sus títulos y propiedades. Sus dos hermanas mayores eran Dalimira y Milena. A pesar de que su padre murió en 1267, el príncipe Radovid no lo sucedió de inmediato porque solo tenía doce años en ese momento y durante varios años el reino estuvo gobernado por un consejo regente bajo el influyente duque Nitert y el conde Segismundo Dijkstra, el entonces maestro de espías del Servicio Secreto Redaniano.
+                            <br><br>
+                            Radovid sentía una profunda aversión hacia los magos, debido a que su padre fue asesinado en secreto por un elfo desconocido a instancias de la hechicera consejera Philippa Eilhart, quien luego gobernó en su nombre, lo dominó y humilló durante toda su juventud.
+                        </p>
+                    </div>
+                </div>
+                <div class="item dijkstra" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Dijkstra.png" alt=""></div>
+                        <p class="scroll">
+                            Segismundo Dijkstra fue el líder de la Inteligencia Redaniana. Era un hombre físicamente imponente; de casi siete pies de alto y calvo, con una tripa visible y del que se decía daba la impresión de un cerdo fregado. 
+                            <br><br>
+                            Tampoco vestía en lo más mínimo como un espía, prefiriendo los colores brillantes y trajes extravagantes.
+                            <br><br>
+                            Durante la Segunda Guerra del Norte, el rey Vizimir II de Redania fue asesinado. Durante el interregno, el país fue gobernado por un Consejo de Regencia liderado por él y la hechicera Philippa Eilhart. Esto lo convirtió en el hombre más poderoso en el reino.
+                            <br><br>
+                            Después de la guerra con el Imperio Nilfgaardiano, fue uno de los negociadores del tratado de paz.
+                        </p>
+                    </div>
+                </div>
+                <div class="item thaler" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Thaler.png" alt=""></div>
+                        <p class="scroll">
+                            Geralt no contaba con encontrarse de aquella manera con Bernard Ducat, antiguo director de la inteligencia temeria. Su relación se remontaba a mucho tiempo atrás, cuando Ducat dirigía una operación de espionaje en el distrito del templo de Wyzima, haciéndose pasar por un contrabandista llamado Thaler. Era famoso por su temperamento arisco y las blasfemias que salían de su boca.
+                            <br><br>
+                            Mucho había cambiado desde entonces, pero el zapatero Zuecos (la nueva identidad adoptada por Ducat) era tan rudo y vulgar como había sido Thaler. Su papel concreto en el ataque contra Radovid no estaba del todo claro, pero teniendo en cuenta su experiencia y su profesionalidad, es de esperar que no quisiese compartir dicha información con nadie, ni siquiera con sus amigos más próximos.
+                            <br><br>
+                            El espionaje no deja margen al error o los sentimientos, y no permite bajar la guardia...
+                        </p>
+                    </div>
+                </div>
+                <div class="item triss" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Triss_Merigold.png" alt=""></div>
+                        <p class="scroll">
+                            Triss Merigold de Maribor fue una legendaria hechicera temeria. Sus contemporáneos la llamaron "Decimocuarta del Monte" porque se pensó erróneamente que fue asesinada durante la Batalla del Monte de Sodden, pasando a la historia como Merigold la Intrépida. Miembro del Consejo Real del Rey Foltest junto con Fercart y Keira Metz, además de una de las miembros fundadoras de la Logia de Hechiceras, Triss estuvo involucrada en la política la mayor parte de su vida.
+                            <br><br>
+                            Amiga de Yennefer y del brujo Geralt, pero también infelizmente enamorada de este último. Triss se hizo cargo de Ciri en Kaer Morhen durante un tiempo y era como una hermana mayor para la muchacha. Fue a través de su intervención que Ciri no fue sometida a cambios hormonales nocivos en Kaer Morhen, que la hubieran despojado de sus características de género.
+                            <br><br>
+                            Triss era conocida por su hermoso cabello castaño (en los videojuegos es pelirroja) y sus ojos (azules en los libros, verdes en los videojuegos). Era una experta curandera y llevaba consigo una gran variedad de pociones mágicas, pero nunca las usaba sobre sí misma ya que era alérgica a estas. Llevaba un amuleto de zafiro cubierto con plata.
+                        </p>
+                    </div>
+                </div>
+                <div class="item roche" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Vernon.png" alt=""></div>
+                        <p class="scroll">
+                            Vernon Roche nunca conoció a su padre y vivió una infancia de pobreza y miseria, hasta el punto de que su madre se vio obligada a trabajar como prostituta para poder sobrevivir. Debido a ello, otros niños solían llamar "hijo de puta" a Vernon; años después, Roche todavía reacciona de forma muy agresiva ante dicho insulto. Él mismo es el primero en admitir que, de no haber sido por el rey Foltest, probablemente habría terminado viviendo en la calle como un vagabundo o un borracho.
+                            <br><br>
+                            En algún momento sin especificar, Roche se enroló como soldado y terminó ingresando en los Franjas Azules, una unidad de élite del ejército temerio dedicada a lidiar con el "problema" de los no humanos. Gracias a sus aptitudes, su devoción y su eficacia, ascendió rápidamente hasta llegar a comandante y fue condecorado dos veces con la Orden al Valor. Tras cuatro años como líder de las fuerzas especiales, se convirtió en la mano derecha de Foltest.
+                            <br><br>
+                            Vernon Roche fue posiblemente el líder más efectivo y letal que los Franjas Azules hayan tenido nunca. En su primera misión como comandante, tomó por sorpresa y aniquiló una unidad entera de Scoia'tael bajo el mando de Iorveth. Con el tiempo, Iorveth llegó a odiarlo con auténtica pasión, sobre todo por el papel de Roche en la aniquilación de numerosos elfos (incluidos mujeres y niños) y otros no humanos (dirigió la "pacificación" de las colinas de Mahakam). Iorveth consideraba que ningún posible sucesor podría llegar a alcanzar el nivel de amenaza que Roche representaba para los Scoia'tael y todos los no humanos en general.
+                            <br><br>
+                            En The Witcher 2: Assassins of Kings, Roche se muestra como el líder pragmático y letal que requiere su posición, pero también es capaz de ayudar desinteresadamente a alguien que él considere un amigo o un aliado, incluso aunque ello signifique poner su propia vida en peligro.
+                        </p>
+                    </div>
+                </div>
+                <div class="item ves" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Ves.png" alt=""></div>
+                        <p class="scroll">
+                            Esta rubia era diferente al resto de la unidad de Vernon Roche, y no solo porque era la única mujer en una formación de élite de aguerridos asesinos y bravucones. Su cara aniñada y cuerpo bien formado destacaban aunque el uniforme no los resaltara. Hay algo en las mujeres soldado que atrae la mirada del hombre, y Ves no era una excepción. El lector no debe, sin embargo, dejarse confundir con esta descripción. No se llega a formar parte de los Franjas Azules por el físico, sino por tus habilidades, determinación y, en ocasiones, crueldad. Cualquiera que no tomara en serio a Ves pagaría un alto precio por juzgar equivocadamente a la joven.
+                            <br><br>
+                            A Ves, por ser mujer, solían encargarle tareas en las que su belleza era más importante que sus habilidades y eficacia en combate. Ves había sido la baza de Roche en más de una ocasión.
+                            <br><br>
+                            Ves tenía un pulso firme y buena puntería que la convertían en la mejor tiradora de la unidad. No eran muchos los que estaban a su altura lanzando cuchillos.
+                        </p>
+                    </div>
+                </div>
+                <div class="item vesemir" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Vesemir.png" alt=""></div>
+                        <p class="scroll">
+                            Vesemir fue el brujo más viejo y experimentado de Kaer Morhen. Era una figura paterna para Geralt y los otros brujos. Pasaba cada invierno en la fortaleza y re-emprendía la Senda cuando llegaba la primavera. Era un excelente tirador y poseía un gran conocimiento sobre los monstruos.
+                            <br><br>
+                            Era el único brujo que sobrevivió a la matanza ocurrida en Kaer Morhen hace mucho tiempo. Coincidentemente (o irónicamente), él solo era instructor de espada, no tenía conocimientos sobre mutágenos con el fin de crear nuevos brujos.
+                        </p>
+                    </div>
+                </div>
+                <div class="item yennefer" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Yennefer.png" alt=""></div>
+                        <p class="scroll">
+                            Hacía unos buenos veinte años que el brujo conocía a la hechicera de cabellos negros como ala de cuervo. Su amistad y los sentimientos entre ambos habían nacido de una aventura en común en la que se había visto implicado un djinn que concedió un deseo a Geralt, deseo que entrelazó sus destinos indisolublemente. No obstante, desde entonces su relación había sido bastante tormentosa, rica en altibajos, crisis y rupturas. El amor de Geralt y Yennefer es la prueba irrefutable de la afirmación de que los contrarios se atraen.
+                            <br><br>
+                            Unos cuantos años atrás, tras la separación llena de aventuras para ambos, Geralt y Yennefer habían reanudado su relación. Su momento de reposo se vio interrumpido por la cacería salvaje, que se llevó cautiva a Yennefer. El brujo partió de inmediato a salvarla, pero perdió la memoria al hacerlo. Cuando la recobró finalmente, reemprendió en el acto la misión de encontrar a su amada hechicera.
+                            <br><br>
+                            Después de dos años, el reencuentro de Geralt con Yennefer fue bastante distinto de lo que este había imaginado. No solo la hechicera estaba sana y salva, sino que además se había procurado la ayuda de un aliado inesperado y poderoso: el Imperio Nilfgaardiano.
+                        </p>
+                    </div>
+                </div>
+                <div class="item zoltan" style="display: none;">
+                    <div class="item_info">
+                        <div class="img"><img class="img" src="../img/diario/TW3_Diario_Zoltan.png" alt=""></div>
+                        <p class="scroll">
+                            
+                        Zoltan Chivay fue un veterano de la Segunda Guerra del Norte y uno de los amigos de Geralt de Rivia. Conoció a Geralt y su compañía cuando se dirigían hacia el río Yaruga desde Brokilón, pero el enano les aconsejó unirse a su compañía e ir hacia el este.
+                        <br><br>
+                        Tenía un loro parlante, el Mariscal de Campo Duda, que vendió al gnomo Percival Schuttenbach cuando este empezó a trabajar en un taller de joyería en Novigrado.
+                        <br><br>
+                        Después de la Batalla de Brenna, Zoltan se comprometió con Eudora Breckenriggs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--BootStrap-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!--JS MIO-->
+    <script src="../js/js-personajes.js"></script>    
+    
+</body>
+
+</html>
